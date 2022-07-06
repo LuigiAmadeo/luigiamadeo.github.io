@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../LuigiAmadeo_Portofolio/images/Background_LA_Koukenhof.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: bold;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    transition: .4s;
+}
+
+.btn{
+    background-color: #0091ff;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+span{
+    color: #0fe;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img{
+    height: auto;
+    width: 500px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #0091ff;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.main img{
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: auto;
+}
+
+.completecontainer{
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.photoproject{
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding:20px 35px;
+}
+
+.projects{
+    background-color: black;
+    padding-top: 0px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.card{
+    height: 450px;
+    width: 350px;
+    padding:20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: #fcfcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: #0091ff;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.skills-sec{
+    width: 100%;
+    height: 900px;
+    background:#191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills-sec h2{
+    color: white;
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.skills-sec p{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.skills-sec .button-two{
+    background-color: #0091ff;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 20px;
+}
+
+.skills-sec .button:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    font-size: 17px;
+    color: white;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+footer p:nth-child(3){
+    font-size: 20px;
+    color: white;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.socialmedia{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    align-self: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    margin: 22px 10px;
+}
+
+.socialmedia img {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 22px 10px;
+    background: white;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.socialmedia img:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: aqua;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+
+.container {
+  width: 75%;
+  background-color: #ddd; 
+  box-sizing: border-box;
+}
+
+.skills {
+    text-align: right;
+    padding: 10px 5px 10px 5px;
+    color:black; 
+    font-weight: bold;
+
+  }
+  
+  .html {width: 90%; background-color: #0600FF;;} 
+  .css {width: 85%; background-color: #FF0079 } 
+  .js {width: 80%; background-color: #F9FF00;} 
+  .php {width: 75%; background-color: #00FF86;}
+  .sql {width: 80%; background-color: #8600FF;}
+  .java {width: 85%; background-color: #0079FF;}
